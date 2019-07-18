@@ -1,7 +1,12 @@
 package com.delta.property;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-
+/**
+ * 
+ * @author AMINE SAFI
+ * 
+ * 
+ */
 @ConfigurationProperties(prefix = "file")
 public class FileStorageProperties {
 	private String uploadDir;

@@ -1,13 +1,17 @@
 package com.delta.payload;
-
-public class UploadFileResponse {
+/**
+ * 
+ * @author AMINE SAFI
+ * 
+ */
+public class Dump {
 
 	private String fileName;
 	private String fileDownloadUri;
 	private String fileType;
 	private long size;
 
-	public UploadFileResponse(String fileName, String fileDownloadUri, String fileType, long size) {
+	public Dump(String fileName, String fileDownloadUri, String fileType, long size) {
 		this.fileName = fileName;
 		this.fileDownloadUri = fileDownloadUri;
 		this.fileType = fileType;

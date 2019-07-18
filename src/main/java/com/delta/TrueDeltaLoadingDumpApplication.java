@@ -5,7 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 import com.delta.property.FileStorageProperties;
-
+/**
+ * 
+ * @author AMINE SAFI
+ * 
+ */
 @SpringBootApplication
 @EnableConfigurationProperties({
     FileStorageProperties.class
